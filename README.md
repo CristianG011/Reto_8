@@ -1,6 +1,7 @@
 # Reto_8
 # Punto 1
 ```python
+#punto 1
 for num in range(1, 101):
   x = num ** 2
   print(f"{num}, {x}")
@@ -19,6 +20,7 @@ for num2 in range(1, 1000):
 ```
 # Punto 3
 ```python
+#punto 3
 x = int(input("Ingrese un numero: "))
 for x in range(x,1,-1):
   if x%2 == 0:
@@ -27,6 +29,7 @@ for x in range(x,1,-1):
 ```
 # Punto 4
 ```python
+#punto 4
 x = int(input("Ingrese un numero: "))
 
 def fact(n):
@@ -43,6 +46,7 @@ for x in range(1,x+1):
 ```
 # Punto 5
 ```python
+#punto 5
 n = int(input("Ingrese un numero: "))
 potencia : int = 1
 for i in range(1, n+1):
@@ -52,6 +56,7 @@ print(potencia)
 ```
 # Punto 6
 ```python
+#punto 6
 def p(n:float, x:int):
   R : int = 1
   for i in range(1,n+1):
@@ -65,6 +70,7 @@ p(n, x)
 ```
 # Punto 7
 ```python
+#punto 7
 def t(n:int):
   print("Tabla de Multiplicar de " +str(n))
   for i in range(1,11):
@@ -77,6 +83,7 @@ for n in range(1, 11):
 ```
 # Punto 8
 ```python
+#punto 8
 #Punto 8
 import math
 a = int(input("Ingrese número de iteraciones "))
@@ -104,6 +111,7 @@ print(f"El posentaje de error es de {z}")
 
 # Punto 9
 ```python
+#punto 9
 import math
 def f(i: int):
     if i == 0:
